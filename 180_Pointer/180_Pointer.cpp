@@ -3,6 +3,6 @@ using namespace std;
 
 class mahasiswa {
 public :
-	int nim
-		void showNim(); //deklrasi method
+	int nim;
+	void showNim(); //deklrasi method
 };

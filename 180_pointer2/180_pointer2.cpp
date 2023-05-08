@@ -20,6 +20,11 @@ public:
 };
 
 void siswa::displayAll(orang& a) {
-	cout << Id << endl << a.nama;
+	cout << id << endl << a.nama;
+}
+void siswa::setId(int pId) {
+		id = pId;
+}
+
 
 }

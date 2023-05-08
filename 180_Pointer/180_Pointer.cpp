@@ -20,6 +20,12 @@ int main()
 	ref.nim = 2;			//memeber acces operator
 	mhs.showNim();
 
+	mahasiswa* pmhs = &mhs;
+	pmhs->nim = 3;
+	mhs.showNim();
+	system("pause");
+	return 0;
+
 
 }
 
